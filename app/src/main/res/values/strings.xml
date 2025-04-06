@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">View &amp; Resources</string>
+    <string name="cab_title">Ivan Petrov</string>
+    <string name="cab_attach">Attach</string>
+    <string name="cab_attach_description">Attach something</string>
+    <string name="cab_more">More</string>
+    <string name="cab_more_description">More actions</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_name_icon_description">Name</string>
+    <string name="contact_phone">Phone</string>
+    <string name="contact_phone_number">+1(234)567–8900</string>
+    <string name="contact_mobile_icon_description">Mobile</string>
+    <string name="contact_method">Select</string>
+    <string name="contact_address">Address</string>
+    <string name="contact_address_icon_description">Address</string>
+    <string name="contact_address_string">123, Lenin street, Apt.6</string>
+    <string name="contact_city">City</string>
+    <string name="contact_city_name">Tokyo</string>
+    <string name="contact_country">Country</string>
+    <string name="contact_country_name">Australia</string>
+    <string name="contact_birthday">Birthday</string>
+    <string name="contact_birthday_icon_description">Birthday</string>
+    <string name="contact_birthday_string">31.12.1980</string>
+    <string name="contact_notes">Notes</string>
+    <string name="contact_notes_icon_description">Notes</string>
+    <string name="contact_notes_string">Loves burgers and french fries</string>
+    <string name="button_save">Save</string>
+
+    <array name="contact_method">
+        <item>Mobile</item>
+    </array>
+
 </resources>
