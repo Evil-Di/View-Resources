@@ -29,8 +29,24 @@
     <string name="contact_notes">Notes</string>
     <string name="contact_notes_icon_description">Notes</string>
     <string name="contact_notes_string">Loves burgers and french fries</string>
+    <string name="cart_title">Cart</string>
+    <string name="cart_close">Close</string>
+    <string name="cart_close_description">Close cart</string>
+    <string name="cart_contains_items">%d items in your cart</string>
+    <string name="cart_item_content_description">Cart item content</string>
+    <string name="cart_iten_category">Category</string>
+    <string name="cart_iten_category_string">Cart item Description</string>
+    <string name="cart_order_total">Order total:</string>
+    <string name="cart_order_total_amount">$175.50</string>
+    <string name="cart_order_subtotal">Subtotal:</string>
+    <string name="cart_order_subtotal_amount">$140</string>
+    <string name="cart_order_shipping">Shipping:</string>
+    <string name="cart_order_shipping_amount">$25</string>
+    <string name="cart_order_tax">Tax:</string>
+    <string name="cart_order_tax_amount">$10.50</string>
     <string name="button_save">Save</string>
     <string name="button_cancel">Cancel</string>
+    <string name="button_place_order">Place order</string>
 
     <array name="contact_method">
         <item>Mobile</item>
