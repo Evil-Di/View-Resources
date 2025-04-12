@@ -1,7 +1,5 @@
 package otus.gpb.homework.viewandresources
 
-import android.net.Uri
-
 data class CartItem(
     val name: String,
     val desc: String,

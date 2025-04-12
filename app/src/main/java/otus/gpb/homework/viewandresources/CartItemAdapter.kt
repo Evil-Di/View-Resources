@@ -1,12 +1,8 @@
 package otus.gpb.homework.viewandresources
 
-import android.graphics.BitmapFactory
-import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
-import androidx.core.graphics.scaleMatrix
-import androidx.core.net.toUri
 import androidx.recyclerview.widget.RecyclerView
 import otus.gpb.homework.viewandresources.databinding.ItemCartBinding
 
@@ -32,7 +28,6 @@ class CartItemAdapter : RecyclerView.Adapter<CartItemAdapter.CartItemViewHolder>
 
     override fun onBindViewHolder(holder: CartItemViewHolder, position: Int) {
         val item = data[position] // Получение записи списка данных по позиции
-        val context = holder.itemView.context
 
         with(holder.binding) {
             cartItemTitle.text = item.name
