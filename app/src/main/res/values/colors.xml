@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="theme_light_primary">#FF3E5F90</color>
     <color name="theme_dark_primary">#FFA7C8FF</color>
+    <color name="theme_light_secondary">#FF555F71</color>
+    <color name="theme_dark_secondary">#FFBDC7DC</color>
 </resources>

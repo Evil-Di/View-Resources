@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">View &amp; Resources</string>
+    <string name="login_title">Login</string>
+    <string name="login_name">ivanpetrov</string>
+    <string name="login_password">Password</string>
+    <string name="login_password_icon_description">Password</string>
+    <string name="login_reset_password">Reset my password</string>
     <string name="cab_title">Ivan Petrov</string>
     <string name="cab_attach">Attach</string>
     <string name="cab_attach_description">Attach something</string>
@@ -25,6 +30,7 @@
     <string name="contact_notes_icon_description">Notes</string>
     <string name="contact_notes_string">Loves burgers and french fries</string>
     <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
 
     <array name="contact_method">
         <item>Mobile</item>
