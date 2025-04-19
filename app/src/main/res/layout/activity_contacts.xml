@@ -7,10 +7,10 @@
     tools:context=".ContactsActivity">
 
     <com.google.android.material.appbar.MaterialToolbar
+        style="@style/AppToolbarStyle"
         android:id="@+id/topAppBarContact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="?attr/actionBarSize"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/top_app_bar_contact"
@@ -40,8 +40,8 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactName"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -54,8 +54,10 @@
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/contactNameEdit"
+                        style="@style/ContactsTextInputStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
                         android:inputType="textPersonName"
                         android:maxLength="50"
                         android:text="@string/cab_title" />
@@ -63,8 +65,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactPhone"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -78,6 +80,7 @@
                     app:layout_constraintTop_toBottomOf="@id/contactName">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        style="@style/ContactsTextInputStyle"
                         android:id="@+id/phoneNumber"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -88,8 +91,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/SelectItemStyle"
                     android:id="@+id/contactMethod"
-                    style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -98,6 +101,7 @@
                     app:layout_constraintTop_toBottomOf="@id/contactName">
 
                     <AutoCompleteTextView
+                        style="@style/SelectItemStyle"
                         android:id="@+id/contactMethodSelected"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -108,8 +112,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactAddress"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -121,6 +125,7 @@
                     app:layout_constraintTop_toBottomOf="@id/contactPhone">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        style="@style/ContactsTextInputStyle"
                         android:id="@+id/contactAddressEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -131,8 +136,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactCity"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -144,6 +149,7 @@
                     app:layout_constraintTop_toBottomOf="@id/contactAddress">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        style="@style/ContactsTextInputStyle"
                         android:id="@+id/city"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -154,8 +160,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactCountry"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
@@ -167,6 +173,7 @@
                     app:layout_constraintTop_toBottomOf="@id/contactAddress">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        style="@style/ContactsTextInputStyle"
                         android:id="@+id/country"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -177,8 +184,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactBirthday"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -190,6 +197,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/contactCity">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        style="@style/ContactsTextInputStyle"
                         android:id="@+id/contactBirthdayEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -200,8 +208,8 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
+                    style="@style/ContactsTextInputStyle"
                     android:id="@+id/contactNotes"
-                    style="?attr/textInputFilledStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -213,6 +221,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/contactBirthday">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        style="@style/ContactsTextInputStyle"
                         android:id="@+id/contactNotesEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -225,6 +234,7 @@
     </LinearLayout>
 
     <Button
+        style="@style/ContactsButtonStyle"
         android:id="@+id/buttonSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

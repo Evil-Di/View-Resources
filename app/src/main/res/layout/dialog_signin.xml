@@ -5,10 +5,9 @@
     android:layout_height="wrap_content">
 
     <TextView
+        style="@style/SigninTitleStyle"
         android:id="@+id/loginTitle"
         android:layout_margin="10dp"
-        android:textAlignment="center"
-        android:textSize="24sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_title"
@@ -16,8 +15,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
+        style="@style/ContactsTextInputStyle"
         android:id="@+id/loginName"
-        style="?attr/textInputFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -26,6 +25,7 @@
         app:layout_constraintTop_toBottomOf="@id/loginTitle">
 
         <com.google.android.material.textfield.TextInputEditText
+            style="@style/ContactsTextInputStyle"
             android:id="@+id/loginNameEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,8 +36,8 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        style="@style/ContactsTextInputStyle"
         android:id="@+id/loginPassword"
-        style="?attr/textInputFilledStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -49,6 +49,7 @@
         app:layout_constraintTop_toBottomOf="@id/loginName">
 
         <com.google.android.material.textfield.TextInputEditText
+            style="@style/ContactsTextInputStyle"
             android:id="@+id/loginPasswordEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,9 +60,8 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        style="@style/SigninTextButtonStyle"
         android:id="@+id/resetPasswordBtn"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -70,8 +70,8 @@
         app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <Button
+        style="@style/SigninAltButtonStyle"
         android:id="@+id/cancelButton"
-        style="@style/AltButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -82,8 +82,8 @@
         app:layout_constraintTop_toBottomOf="@id/resetPasswordBtn" />
 
     <Button
+        style="@style/SigninButtonStyle"
         android:id="@+id/loginButton"
-        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"

@@ -32,7 +32,7 @@
     <string name="cart_title">Cart</string>
     <string name="cart_close">Close</string>
     <string name="cart_close_description">Close cart</string>
-    <string name="cart_contains_items">%d items in your cart</string>
+    <string name="cart_contains_items">4 items in your cart</string>
     <string name="cart_item_content_description">Cart item content</string>
     <string name="cart_iten_category">Category</string>
     <string name="cart_iten_category_string">Cart item Description</string>
