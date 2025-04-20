@@ -14,6 +14,7 @@
     <style name="ThemeAppToolbarStyle" parent="Widget.Material3.Toolbar">
         <item name="android:background">@color/theme_light_surface</item>
         <item name="navigationIconTint">@color/theme_light_on_surface</item>
+        <item name="android:iconTint">@color/theme_light_on_surface_variant</item>
         <item name="titleTextColor">@color/theme_light_on_surface</item>
     </style>
 

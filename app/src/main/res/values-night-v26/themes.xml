@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeAppToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/theme_dark_surface</item>
+        <item name="android:iconTint">@color/theme_dark_on_surface_variant</item>
+        <item name="navigationIconTint">@color/theme_dark_on_surface</item>
+        <item name="titleTextColor">@color/theme_dark_on_surface</item>
+    </style>
+</resources>
