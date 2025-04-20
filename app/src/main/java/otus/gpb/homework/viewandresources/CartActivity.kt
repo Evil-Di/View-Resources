@@ -40,7 +40,7 @@ class CartActivity : AppCompatActivity() {
         val manager = LinearLayoutManager(this) // LayoutManager
         adapter = CartItemAdapter() // Создание объекта
         adapter.data = cartItems
-        binding. recyclerView.layoutManager = manager // Назначение LayoutManager для RecyclerView
+        binding.recyclerView.layoutManager = manager // Назначение LayoutManager для RecyclerView
         binding.recyclerView.adapter = adapter // Назначение адаптера для RecyclerView
     }
 }
